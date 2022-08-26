@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid black;
+} 
+
+.alignJustify{
+    display: none;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto auto;
+    align-items: center;
+    grid-template-rows: 54px;
+}
+
+#logo{
+    width: 108px;
+    padding: 15px 10px 20px;
+}
+
+header nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    justify-content: start;
+}
+
+nav ul li a,.d1 a{
+    text-decoration: none;
+    color: #262626;
+    padding: 17px 10px;
+    border: 1px solid gray;
+}
+
+header nav li a:hover span, .d1 a:hover span, .content a:hover{
+    border-bottom:2px solid black;
+}
+
+.secondImg{
+    background-image: url(../Imgs/RWKCAD.png);
+    align-items: center;
+    display: grid;
+    grid-template-rows: 472px;
+    background-size: cover;
+}
+
+.head1{
+    width: 403px;
+    height: 300px;
+    margin-left: 70px;
+}
+
+.btn1, .btnFor{
+    background-color: rgb(201, 185, 93);
+    color: black;
+    font-size: 17px;
+    padding: 10px 15px; 
+    text-decoration: none;
+}
+
+.head1 h2{
+    margin-top: 15px;
+}
+
+.head1 p{
+    margin: 11px 0px 23px 0px;
+    font-size: 19px;
+}
+
+.btn2{
+    background-color: black;
+    color: white;
+    width: 132px;
+    height: 25px;
+    font-size: 20px;
+    padding: 11px 25px;
+    text-decoration: none;
+}
+
+.btn2:hover span, .btnFor:hover span{
+    border-bottom:2px solid white;
+    margin: 0px 6px 0px -3px;
+}
+ 
+.media600, .secondMedia600, .ImgMedia600{
+    background-color: #e6e6e6;
+    display: none;
+    grid-template-rows: 224px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.ImgMedia600{
+    background-color: #333;
+}
+
+.anotherHead, .anotherAnother, .anotherhead{
+    width: 100%;
+}
+
+
+.ImgMedia600 h1{
+    color: white;
+}
+
+.ImgMedia600 p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ImgMedia600 a{
+    color: white;
+    text-decoration: none;
+}
+
+.media600 p, .secondMedia600 p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.media600 h2{
+    margin-top: 16px;
+}
+
+.btnFor1{
+    margin-right: 120px;
+}
+
+.third{
+    width: 90%;
+    margin: 41px 0px 50px 62px;
+}
+
+.third ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,auto)
+}
+
+.third ul li{
+    text-align: center;
+}
+
+.third ul li a{
+    text-decoration: none;
+    width: 125px;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+ 
+.third ul li a:hover{
+   text-decoration: underline;
+   color: black;
+}
+
+.next{
+    margin-bottom: 40px;
+} 
+
+.next ul, .nextCategories ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    justify-content: space-between;
+}
+
+.next ul li img,.nextCategories ul li img{
+    width: 100%;
+}
+
+.new, .new1{
+    background-color: #ffd800;
+    width: 35px;
+    text-decoration: none;
+    margin: 10px 0px 8px 0px;
+    display: block;
+    color: black;
+    padding: 5px 12px;
+}
+
+.new1{
+    width: 122px;
+}
+
+.next p, .nextCategories p{
+    margin: 7px 0px 8px 0px;
+    font-size: 19px;
+}
+
+.now, .link{
+    text-decoration: none;
+    font-size: 19px;
+    color: #1f5581;
+}
+
+.faAngle1{
+    color: #1f5581;
+}
+
+.now:hover, .link:hover span{
+    border-bottom: 2px solid #0f538a9c;
+    margin: 0px 6px 0px -3px;
+}
+
+.link{
+    display: block;
+}
+ 
+.anotherImg{ 
+    background-image: url(../Imgs/RE4DRie.png);
+    align-items: center;
+    display: grid;
+    grid-template-rows: 472px;
+    margin-bottom: 40px;
+    background-size: cover;
+}
+
+.another{
+    margin-left: 70px;
+    width: 472px;
+}
+
+.another p{
+    margin: 20px 0px 26px 0px;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnFor{
+    background-color: black;
+    color: white;
+    width: 145px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnFor1{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+}
+ 
+.grayPart{
+    background-color: #e6e6e6;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 165px;
+}
+
+.content p{
+    margin:11px 0px 12px 0px;   ;
+}
+
+.content h2{
+    margin-left: 60px;
+}
+
+.content a{
+    color: black;
+    text-decoration: none;
+}
+
+.faAngle{
+    color: black;
+}
+ 
+.Img{
+    background-image: url(../Imgs/RWK4Xl.png);
+    display: grid;
+    grid-template-rows: 471px;
+    align-items: center; 
+    margin-top: 50px;
+    background-size: cover;
+}
+
+.head{
+    margin-left: 70px;
+}
+
+.head h1, .head p{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.head a{
+    background-color: white;
+    color: black;
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding:10px 5px;
+    text-decoration: none;
+}
+
+.lnk:hover span{
+    border-bottom: 3px solid black;
+    margin: 0px 6px 0px -3px;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: start;
+}
+
+.icons h3{
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.icon1, .icon2, .icon3{
+    margin: 10px;
+    color: blue;
+}
+
+.icon2{
+   color: rgb(58, 58, 207);
+}
+
+.icon3{
+    color: rgb(67, 67, 238);
+}
+
+.last{
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-top: 20px;
+    padding: 50px 0px;
+}
+
+.element{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    width: 90%;
+    margin: auto;
+}
+
+.element ul{
+    list-style: none;
+}
+
+.element ul li{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.element h4{
+    color: rgb(117, 129, 129);
+    font-size: 15px;
+}
+
+.element li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.element li a:hover, .lastItem:hover, .lastLinks a:hover{
+    border-bottom: 2px solid rgba(131, 123, 123, 0.767);
+}
+
+.lastItem, .lastLinks a{
+    margin-left: 3px;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.lastPart{
+    display: grid;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2,auto);
+    font-size: 12px;
+}
+
+.lastLinks a{
+    margin-left: 20px;
+}

@@ -1,0 +1,171 @@
+@media screen and (max-width: 1070px) { 
+    .page{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .next ul, .nextCategories ul {
+        display: grid;
+        grid-template-columns: repeat(2,45%);
+        justify-content: space-evenly;
+        /* grid-template-areas: "first first first1 first1" 
+                            "second second second1second1"; */
+    }
+
+    .third ul{
+        overflow: hidden;
+    }
+
+    .nextCategories h1{
+        margin-left: 35px;
+    }
+
+    .next li,.nextCategories li{
+        margin: 15px 0;
+    }
+
+    .element{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        margin-left: 25px;
+    }
+
+    .element ul{
+        margin-bottom:15px;
+    }
+
+    .lastPart{
+        margin-left: 25px;
+    }
+} 
+
+@media screen and (max-width: 1000px) and (min-width: 500px){
+    .secondImg{
+        background-image: url(../Imgs/RWKCAD1.webp);
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    nav, #micro{
+        display: none !important;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: auto auto  1fr auto auto;
+        grid-template-areas: "align search1 logo1";
+        justify-items: center;
+    }
+
+    .alignJustify{
+        grid-area: align;
+        margin-left: 20px;
+    }
+
+    #search{
+        grid-area: search1;
+    }
+
+    #logo{
+        grid-area: logo1;
+    }
+
+    .alignJustify{
+        display: block;
+    }
+
+    .d1{
+        margin-left: 20px;
+    }
+    
+    .lastPart{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+   .secondImg{
+        background-image: url(../Imgs/RWKCAD600.png);
+   }
+
+   .head1,.another, .head{
+       display: none;
+   }
+
+   .anotherHead, .anotherAnother,  .content{
+       text-align: center;
+   }
+
+   .anotherAnother .lnk{
+    background-color: white;
+    color: black;
+    width: 100px;
+    /* border: red solid 1px; */
+    text-align: center;
+    padding:10px 5px;
+    text-decoration: none;
+   }
+
+   .media600, .secondMedia600, .ImgMedia600{
+        display: grid;
+        margin-bottom: 15px;
+    }
+
+    .third{
+        margin: 0px;
+        width: 100%;
+    }
+
+    .third ul{
+        display: block;
+    }
+    
+    .third ul li{
+        text-align:left;
+        margin-left: 28px;
+    }
+
+    .third ul li a{
+        width: 257px;
+        display: grid;
+        grid-template-columns: 23% auto;
+    }
+
+    .third li img{
+        width: 25%;
+    }
+
+    .anotherImg{
+        background-image: url(../Imgs/RE4D5uF600.png);
+        margin-bottom: 0px;
+        background-size: 100% 100%;
+    }
+
+    .Img{
+        background-image: url(../Imgs/RWMYfF600.png);
+    }
+}
+
+@media screen and (max-width: 530px){
+    .next ul, .nextCategories ul{
+        display: grid;
+        grid-template-columns:90%;
+    }
+
+    .content p{
+        width: 411px;
+    }
+
+    .content{
+        text-align: center;
+    }
+
+    .content h2{
+        margin-left: 0px;
+    }
+
+    .element{
+        grid-template-columns: 90%;
+    }
+}

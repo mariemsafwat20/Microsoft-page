@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#page, .second{
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+}
+
+header{
+    height: 54px;
+    float: left;
+    width: 100%;
+}
+
+#logo{
+    width: 108px;
+    margin-top: 15px;
+    margin-left: 5px;
+    float: left;
+}
+
+header nav, .right{
+    float: left;
+    height: 54px;
+}
+
+header nav ul, .right ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+header nav ul li, .right ul li{
+    float: left;
+}
+
+header nav li a, .right li a{
+    text-decoration: none;
+    padding: 16px 10px;
+    float: left;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px !important;
+    color: #262626;
+}
+
+header nav li a:hover span, .right li a:hover span, .btnFor1:hover span, .content a:hover{
+    border-bottom:2px solid black;
+}
+
+.right{
+    float: right;
+}
+
+.first{
+    margin-right: 50px;
+}
+
+/* .Img{
+    width: 100%;
+    height: 500px;
+    background-image: url(../Imgs/tap.jpg);
+    float: left;
+    display: none;
+}
+
+.head{
+    margin: 160px 0px 0px 105px;
+    width: 80px;
+}
+
+.head a{
+    background-color: black;
+    color: blanchedalmond;
+    width: 98px;
+    height: 27px;
+    font-size: 20px;
+    border: 0px;
+    float: left;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 5px
+}
+
+.faAngle{
+    margin-right: 2px;
+} */
+
+.secondImg, .anotherImg{
+    width: 100%;
+    height: 472px;
+    background-image: url(../Imgs/RWKCAD.png);
+    float: left;
+}
+
+.head1{
+    margin: 46px 0px 0px 68px;
+    width: 478px;
+}
+
+.btn1, .btnFor{
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    padding: 10px 15px; 
+    text-decoration: none;
+}
+
+.head1 h2{
+    margin-top: 15px;
+}
+
+.head1 p{
+    margin: 20px 0px 30px 0px;
+    font-size: 19px;
+}
+
+.btn2{
+    background-color: black;
+    color: white;
+    width: 132px;
+    height: 25px;
+    font-size: 20px;
+    padding: 11px 25px;
+    text-decoration: none;
+}
+
+.btn2:hover span, .btnFor:hover span{
+    border-bottom:2px solid white;
+    margin: 0px 6px 0px -3px;
+}
+
+.third{
+    width: 90%;
+    margin: 41px 0px 50px 62px;
+    float: left;
+}
+
+.third ul{
+    list-style: none;
+}
+
+.third ul li a{
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    width: 100px;
+}
+
+.third ul li{
+    float: left;
+    margin-left: 70px;
+}
+
+.third ul li p{
+   color: black;
+   margin: 0px;
+}
+
+.third ul li a:hover{
+  text-decoration: underline;
+}
+
+.third li span{
+    float: left;
+    margin: 18px 0px 0px -59px;
+    background: beige;
+    border-radius: 17px;
+    height: 34px;
+    color: black;
+    width: 26px;
+    padding-left: 10px;
+}
+
+.third li span:hover{
+    background-color: white;
+    box-shadow: 0px 0px 5px;
+}
+.change{
+    width: 118px;
+}
+
+.next, .nextCategories{
+    width: 100%;
+    float: left;
+}
+
+.next ul, .nextCategories ul{
+    list-style: none;
+}
+
+.next ul li, .nextCategories ul li{
+   width: 23%;
+   float: left;
+   margin-left: 32px;
+}
+
+.next ul li:first-child, .nextCategories ul li:first-child{
+   margin-left: 0px;
+}
+
+.new, .new1{
+    background-color: #ffd800;
+    width: 35px;
+    text-decoration: none;
+    height: 18xpx;
+    display: block;
+    color: black;
+    padding: 5px 12px;
+    margin: 10px 0px 8px 0px;
+}
+
+.next p, .nextCategories p{
+    margin: 7px 0px 8px 0px;
+    font-size: 19px;
+    width: 289px;
+}
+
+.now, .link{
+    text-decoration: none;
+    font-size: 19px;
+    color: #1f5581;
+}
+
+.faAngle1{
+    color: #1f5581;
+}
+
+.now:hover, .link:hover{
+    border-bottom: 2px solid #0f538a9c;
+    /* margin-left: 2px; */
+}
+
+.new1{
+    width: 122px;
+}
+
+.nextCategories h1{
+    margin-bottom: 15px;
+}
+
+.lastLink{
+    float: left;
+    margin: 20px 0px 15px 0px;
+}
+
+.anotherImg{ 
+    background-image: url(../Imgs/RE4DRie.png);
+    margin: 40px 0px 40px 0px;
+}
+
+.another{
+    margin: 149px 0px 0px 68px;
+    width: 472px;
+}
+
+.another p{
+    margin: 20px 0px 26px 0px;
+    font-size: 18px;
+}
+
+.btnFor{
+    background-color: black;
+    color: white;
+}
+
+.btnFor1{
+    margin: -4px 120px 0px 0px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.grayPart{
+    background-color: #e6e6e6;
+    float: left;
+    width: 100%;
+    height: 165px;
+    margin-bottom: 30px;
+}
+
+.content{
+    margin: 37px 0px 0px 301px;
+}
+
+.content p{
+    margin:11px 0px 12px 0px;   ;
+}
+
+.linkLearn{
+    margin-left: 201px;
+}
+
+.content h1{
+    margin-left: 20px;
+}
+
+.content a{
+    color: black;
+    text-decoration: none;
+}
+
+.faAngle{
+    color: black;
+}
+
+.Img{
+    width: 100%;
+    height: 471px;
+    background-image: url(../Imgs/RWK4Xl.png);
+    float: left;
+}
+
+.head{
+    margin: 160px 0px 0px 105px;
+    width: 416px;
+}
+
+.head h1, .head p{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.head a{
+    background-color: white;
+    color: black;
+    width: 126px;
+    height: 35px;
+    font-size: 20px;
+    float: left;
+    text-decoration: none;
+    padding: 10px 0px 0px 19px;
+}
+
+.lnk:hover span{
+    border-bottom:2px solid black;
+    margin: 0px 6px 0px -3px;
+}
+
+.icons{
+    float: left;
+    margin-top: 30px;   
+}
+
+.icons p{
+    font-size: 20px;
+    float: left;
+}
+
+.icon1, .icon2, .icon3{
+    float: left;
+    margin: -6px 10px;
+    color: blue;
+}
+
+.icon2{
+   color: rgb(58, 58, 207);
+}
+
+.icon3{
+    color: rgb(67, 67, 238);
+}
+
+.last{
+    float: left;
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    padding: 50px 0px;
+}
+
+.element{
+    width: 90%;
+    margin: auto;
+}
+
+.element ul{
+    list-style: none;
+    float: left;
+    width: calc(100%/6);
+    margin-bottom: 34px;
+}
+
+.element ul li{
+    margin-bottom: 20px;
+}
+
+.element h4{
+    color: darkslategray;
+}
+.element li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.element li a:hover, .lastItem:hover, .lastLinks a:hover{
+    border-bottom: 2px solid rgba(131, 123, 123, 0.767);
+}
+
+.lastItem, .lastLinks a{
+    margin-left: 3px;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.lastLinks{
+    float: right;
+}
+
+.lastLinks a{
+    margin-left: 20px;
+}
+

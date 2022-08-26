@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    width: 90%;
+    margin-left: 5%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+
+#logo{
+    width: 108px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #262626;
+    margin-left: 22px;
+}
+
+header nav li a:hover span, .right li a:hover span, .content a:hover{
+    border-bottom:2px solid black;
+}
+
+.secondImg{
+    width: 100%;
+    height: 472px;
+    background-image: url(../Imgs/RWKCAD.png);
+    display: flex;
+    align-items: center;
+}
+
+.head1{
+    width: 403px;
+    height: 300px;
+    margin-left: 70px;
+}
+
+.btn1, .btnFor{
+    background-color: rgb(201, 185, 93);
+    color: black;
+    font-size: 17px;
+    padding: 10px 15px; 
+    text-decoration: none;
+}
+
+.head1 h2{
+    margin-top: 15px;
+}
+
+.head1 p{
+    margin: 11px 0px 23px 0px;
+    font-size: 19px;
+}
+
+.btn2{
+    background-color: black;
+    color: white;
+    width: 132px;
+    height: 25px;
+    font-size: 20px;
+    padding: 11px 25px;
+    text-decoration: none;
+}
+
+.btn2:hover span, .btnFor:hover span{
+    border-bottom:2px solid white;
+    margin: 0px 6px 0px -3px;
+}   
+ 
+.third{
+    width: 90%;
+    margin: 41px 0px 50px 62px;
+}
+
+.third ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third ul li{
+    text-align: center;
+}
+
+.third ul li a{
+    text-decoration: none;
+    width: 125px;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+ 
+.third ul li a:hover{
+   text-decoration: underline;
+   color: black;
+}
+
+.next, .nextCategories{
+    width: 100%;
+}
+
+.next ul, .nextCategories ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next ul li, .nextCategories ul li{
+    width: 23%;
+}
+
+.new, .new1{
+    background-color: #ffd800;
+    width: 35px;
+    text-decoration: none;
+    margin: 10px 0px 8px 0px;
+    display: block;
+    color: black;
+    padding: 5px 12px;
+}
+
+.new1{
+    width: 122px;
+}
+
+.next p, .nextCategories p{
+    margin: 7px 0px 8px 0px;
+    font-size: 19px;
+    width: 289px;
+}
+
+.now, .link{
+    text-decoration: none;
+    font-size: 19px;
+    color: #1f5581;
+}
+
+.faAngle1{
+    color: #1f5581;
+}
+
+.now:hover, .link:hover{
+    border-bottom: 2px solid #0f538a9c;
+    margin: 0px 6px 0px -3px;
+}
+
+.lastLink{
+    margin: 20px 0px 15px 0px;
+}
+
+.anotherImg{ 
+    background-image: url(../Imgs/RE4DRie.png);
+    margin: 40px 0px 40px 0px;
+    height: 478px;
+    display: flex;
+    align-items: center;
+}
+
+.another{
+    margin-left: 70px;
+    width: 472px;
+}
+
+.another p{
+    margin: 20px 0px 26px 0px;
+    font-size: 18px;
+}
+
+.btnFor{
+    background-color: black;
+    color: white;
+}
+
+.btnFor1{
+    margin: 0px 0px 0px 93px;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.grayPart{
+    background-color: #e6e6e6;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p{
+    margin:11px 0px 12px 0px;   ;
+}
+
+.linkLearn{
+    margin-left: 201px;
+}
+
+.content h1{
+    margin-left: 20px;
+}
+
+.content a{
+    color: black;
+    text-decoration: none;
+}
+
+.faAngle{
+    color: black;
+}
+
+.Img{
+    width: 100%;
+    height: 471px;
+    background-image: url(../Imgs/RWK4Xl.png);
+    display: flex;
+    align-items: center; 
+    margin-top: 50px;
+}
+
+.head{
+    margin-left: 70px;
+}
+
+.head h1, .head p{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.head a{
+    background-color: white;
+    color: black;
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding:10px 5px;
+    text-decoration: none;
+}
+
+.lnk:hover span{
+    border-bottom: 3px solid black;
+    margin: 0px 6px 0px -3px;
+}
+
+.icons{
+    margin-top: 30px;
+    display: flex;
+}
+
+.icons p{
+    font-size: 20px;
+}
+
+.icon1, .icon2, .icon3{
+    margin: -6px 10px;
+    color: blue;
+}
+
+.icon2{
+   color: rgb(58, 58, 207);
+}
+
+.icon3{
+    color: rgb(67, 67, 238);
+}
+
+.last{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 366px;
+    margin-top: 20px;
+    padding: 50px 0px;
+}
+
+.element{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.element ul{
+    list-style: none;
+    width: calc(100%/6);
+}
+
+.element ul li{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.element h4{
+    color: rgb(117, 129, 129);
+    font-size: 15px;
+}
+
+.element li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.element li a:hover, .lastItem:hover, .lastLinks a:hover{
+    border-bottom: 2px solid rgba(131, 123, 123, 0.767);
+}
+
+.lastItem, .lastLinks a{
+    margin-left: 3px;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.lastPart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.lastLinks a{
+    margin-left: 20px;
+}
+
